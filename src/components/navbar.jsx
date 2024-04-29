@@ -20,7 +20,7 @@ const Navbar = () => {
 <nav className={`navbar navbar-expand-sm  fixed-top ${isscrolled?'bg-black':'bg-transparent'}`}>
   <div className="container">
   <a className="navbar-brand" href="#">
-      <img src="/src/assets/Netflix logo.png" alt="Bootstrap" width="100" height="40" />
+    <img src="/src/assets/Netflix logo.png" alt="Bootstrap" width="100" height="40" />
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={handleToggle}>
       <span className="navbar-toggler-icon"></span>
